@@ -1,0 +1,159 @@
+body {
+	background-color: #303030;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+#container {
+	width: 1000px;     
+	margin-left: auto; /*środkowanie*/
+	margin-right: auto;
+}
+
+.rectangle {
+	display: flex;
+	width: 940px; /*trzeba zmniejszyć bo margin*/
+	margin: 30px; /*żeby zegar i nazwisko nie przylegało do krawędzi*/
+}
+
+.square {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	margin: 20px;
+}
+
+#logo {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 60px;
+	width: 500px;
+}
+
+#zegar {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 60px;
+	width: 440px;
+}
+
+.tile1 {
+	text-align: center;
+	margin: 10px;
+	width: 210px; /*złota proporca szer/wys*/
+	height: 130px;
+	background-color: #3095d3;
+}
+
+.tile1:hover {
+	background-color: #2084C2;
+}
+
+.tile2 {
+	text-align: center;
+	margin: 10px;
+	width: 210px; /*złota proporca szer/wys*/
+	height: 130px;
+	background-color: #666666; 
+}
+
+.tile2:hover {
+	background-color: #555555;
+}
+
+.tile3 {
+	text-align: center;
+	margin: 10px;
+	width: 210px; /*złota proporca szer/wys*/
+	height: 130px;
+	background-color: #90EE90; 
+}
+
+.tile3:hover {
+	background-color: #80DD80;
+}
+
+.tile4 {
+	text-align: center;
+	font-size: 20px;
+	padding: 15px;
+	margin: 10px;
+	width: 410px; /*złota proporca szer/wys*/
+	height: 100px;
+	background-color: #FFA500; 
+}
+
+.tile5 {
+	text-align: justify;
+	padding: 15px;
+	margin: 10px;
+	width: 410px; /*złota proporca szer/wys*/
+	height: 250px;
+	background-color: #666666; 
+}
+
+.yt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	width: 95px; /*złota proporca szer/wys*/
+	height: 130px;
+	background-color: #d94348; 
+}
+
+.yt:hover {
+	background-color: #C83237;
+}
+
+.fb {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	width: 95px; /*złota proporca szer/wys*/
+	height: 130px;
+	background-color: #4267B2; 
+}
+
+.fb:hover {
+	background-color: #3156A1;
+}
+
+.google {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	width: 95px; /*złota proporca szer/wys*/
+	height: 130px;
+	background-color: #DB4437; 
+}
+
+.google:hover {
+	background-color: #CA3326;
+}
+
+.tt {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	width: 95px; /*złota proporca szer/wys*/
+	height: 130px;
+	background-color: #00ACEE; 
+}
+
+.tt:hover {
+	background-color: #009BDD;
+}
+
+.footer {
+	text-align: center;
+	width: 980px; /*trzeba zmniejszyć bo margin*/
+	margin: 10px; /*żeby zegar i nazwisko nie przylegało do krawędzi*/
+}
+
+a.tilelink {
+	color: #FFFFFF;
+	text-decoration: none;
+}
